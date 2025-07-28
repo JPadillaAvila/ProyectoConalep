@@ -1,0 +1,3037 @@
+{
+  "Version": 1,
+  "Hash": "qqbxLQ9BE6wXPqU7kTdWYodREop9aozIc1FsJWbn3RM=",
+  "Source": "Conalep2025",
+  "BasePath": "_content/Conalep2025",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Conalep2025\\wwwroot",
+      "Source": "Conalep2025",
+      "ContentRoot": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\",
+      "BasePath": "_content/Conalep2025",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\blazorise.css",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "blazorise.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "phgpcgnw7u",
+      "Integrity": "Q6TOhrRznPf2Ahko6sNBgGGBBPFbjd9BvXuQhpBmbLM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\blazorise.css"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\blazorise.min.css",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "blazorise.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0rup0t2eqz",
+      "Integrity": "FGT9oYq2nFvTaJeQlcZU781rrIJVGlvQ2BqOWXUOyW4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\blazorise.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\breakpoint.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "breakpoint.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "id0t3r0t65",
+      "Integrity": "JhaI1xXnywN8viG6dIVM6CsVG8f8gNdVIn7XpGEIWh4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\breakpoint.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\button.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "button.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "edftkvihsy",
+      "Integrity": "EsO0GcZ1X6NVcuys/eSCWAMxkS9tqKWt6ul8FIcVPIA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\button.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\closable.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "closable.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fhfndkf66a",
+      "Integrity": "Ixv4O0t21NpbZR6d0ORC1WkQHljTvIS5MBs3lRDN3No=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\closable.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\colorPicker.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "colorPicker.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mf2m76trrc",
+      "Integrity": "LnusyGY9E3/IO+rLbTnsWhzcBqunkA+BqdDi3xdfBEY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\colorPicker.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\datePicker.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "datePicker.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v0tnmsmjzg",
+      "Integrity": "r9gLRKhOaSsKVLzxszzixCSNzbjRhOZlotAD6ViNTrw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\datePicker.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\dragDrop.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "dragDrop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kxl4mbvj6t",
+      "Integrity": "+CUYHov9QhmnFCyEZjdm+h6r9C8swLqNXFbr+v5Fl5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\dragDrop.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\dropdown.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "dropdown.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qtm6wgjndc",
+      "Integrity": "DgnmxLugwbViS4KFcXADQdiD7s1jcUPhQnvfmBeZRnY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\dropdown.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\fileEdit.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "fileEdit.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0valnhcveq",
+      "Integrity": "PAWG5+jA0qMSBPgi9tohRvYGggP4GxlU9zjzpNtl+Z8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\fileEdit.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\filePicker.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "filePicker.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xp1cezqwri",
+      "Integrity": "S5JZUba21V6dIkb0OJV0ziiIxcPlvWXMidVvQV1v++M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\filePicker.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\floatingUi.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "floatingUi.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "32uw4ox8lb",
+      "Integrity": "K1Qh59Oxmqx6UFDzwE2WwKzt7qH+cE/MqfpzAnCBOFE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\floatingUi.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\inputMask.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "inputMask.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bu9m185cvd",
+      "Integrity": "U+y3e66WHq4ZUltnokH29kt4MQf62jWmVlitKcAM+xc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\inputMask.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\io.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "io.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jpt4u823i0",
+      "Integrity": "mbKL6XwKZyyrts0POi77EYKAsiuPcX8ZEDw5bwtQtFY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\io.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\memoEdit.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "memoEdit.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q2uxboq5fc",
+      "Integrity": "fr5wMAvJ2LbFLLt4vlmWVEWbEoGhrPmAl0BvPmrmi6o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\memoEdit.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\numericPicker.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "numericPicker.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s3bar82f1q",
+      "Integrity": "uFF9qYTWVgFB0PcDKzurIe9Ym0wj814JCXihiEKt0bE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\numericPicker.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\observer.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "observer.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s1nsmqqjya",
+      "Integrity": "UL7yfMvnqDrtwAkFBxgGYL+5hCO9VDCJ94lmA5Ry130=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\observer.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\table.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "table.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k67o7wyxcx",
+      "Integrity": "pH6QJbNjPuz7zHdzpEYCWL46TVWOtOUdwOtLZ7eWZ1o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\table.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\textEdit.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "textEdit.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dkimrx166s",
+      "Integrity": "g0kC3HDaTHC4Z84MtjCkY0ECzw2TzWVoYn+wA/xa7tM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\textEdit.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\theme.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "theme.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7mew5qey9y",
+      "Integrity": "/z7kNAcnzllfg/HxEPpf0fnn2IpUACYWcVwVa2oqnsA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\theme.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\timePicker.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "timePicker.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0l009cx99s",
+      "Integrity": "DFQ/Jl0Q7kzpKiOYxShL6DlYB0wah2FIqhLH5IGS3Ak=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\timePicker.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\tooltip.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "tooltip.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o7l5gg8a1w",
+      "Integrity": "pEpQ51/8Bndxv1r4IG1PdyoQi0qMtQpOcKIw8Y4TKvU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\tooltip.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\utilities.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "utilities.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "czg09m7fbw",
+      "Integrity": "CLlEA1tWuBjP5c5o03QIJOroLF5B+3GVp4FO7u+r7GI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\utilities.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\DateTimeMaskValidator.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "validators/DateTimeMaskValidator.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9sjnuohl93",
+      "Integrity": "6VFRpMupxoUE443D30s91C5bFZsQ58DxuiNwbCVxLJk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\DateTimeMaskValidator.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\NoValidator.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "validators/NoValidator.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qgmopykj85",
+      "Integrity": "RvdrNjHB3Z79Jf1QB/v3rjA4ib41PS+fjetwFdNiJuw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\NoValidator.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\NumericMaskValidator.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "validators/NumericMaskValidator.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rdf588x9o3",
+      "Integrity": "4ar0+fGtxySKLf8iZAlv7UMfP/0rO43/fn6aJjFYscE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\NumericMaskValidator.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\RegExMaskValidator.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "validators/RegExMaskValidator.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4rmwhz9udx",
+      "Integrity": "0JfcdT/AH07dbEAVpuaISjcVIZZmz6JaK0kpd2kRHFM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\RegExMaskValidator.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\autoNumeric.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "vendors/autoNumeric.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cs38ynhyrk",
+      "Integrity": "LHPx5iVPtgtmcZNDoi0TKQcGpZ/ThGTXvzkGzajnDEo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\autoNumeric.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\Behave.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "vendors/Behave.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k77rf775v5",
+      "Integrity": "QPixC/RhNy0Sx4ntFHFH0iGj3tNiFkhkh/FDWbau6LE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\Behave.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\flatpickr.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "vendors/flatpickr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "edp1606bnc",
+      "Integrity": "TuPGTy1RSyKjfSGGz7VXOVYYoW3nhlFnCiVxIxtci88=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\flatpickr.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\floating-ui.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "vendors/floating-ui.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5mbjrq4df3",
+      "Integrity": "cxuZSSJUtLW1W9nVAnm5EiMlDJ34kSIUSNACDrLG6OI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\floating-ui.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\floating-ui-core.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "vendors/floating-ui-core.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2wlo7snjy4",
+      "Integrity": "0guaW7kt/WFpp8o6esUyNY5+Wm0/Jk0sgZGfiLlpIV0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\floating-ui-core.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\inputmask.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "vendors/inputmask.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m189u628rl",
+      "Integrity": "+mZGO/MfY1p0zmJh0VuKN/1cSevolIfLp+1p4yqRST0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\inputmask.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\jsencrypt.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "vendors/jsencrypt.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pybrzh7rdh",
+      "Integrity": "UYwEFy4Dt94x8agDo+K5rAAynsteCUPA/G2UQCHEvyM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\jsencrypt.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\Pickr.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "vendors/Pickr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qovnesw5rb",
+      "Integrity": "1gHexzaXVdeRaNA/1rkPr0sk9Wcyys2XlLgv22akhVM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\Pickr.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\sha512.js",
+      "SourceId": "Blazorise",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\",
+      "BasePath": "_content/Blazorise",
+      "RelativePath": "vendors/sha512.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "luevd9t85z",
+      "Integrity": "E+LUjqfR7dS8pbN72SD0gJxBccFzMa7ZTfkInVjDPqU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\sha512.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Conalep2025.styles.css",
+      "SourceId": "Conalep2025",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Conalep2025",
+      "RelativePath": "Conalep2025#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "cjb1hp77qd",
+      "Integrity": "WCrWxtDLsoytH4uY8k329pTNQvHcj2ZUr6/3Ni6EnPc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Conalep2025.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Conalep2025.bundle.scp.css",
+      "SourceId": "Conalep2025",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Conalep2025",
+      "RelativePath": "Conalep2025#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "cjb1hp77qd",
+      "Integrity": "WCrWxtDLsoytH4uY8k329pTNQvHcj2ZUr6/3Ni6EnPc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Conalep2025.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\app.css",
+      "SourceId": "Conalep2025",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\",
+      "BasePath": "_content/Conalep2025",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2odz792qjk",
+      "Integrity": "8vr/EQVVDZ51y5xUlR7pdgg5SfyZ652qi/G1dj1JU24=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "Conalep2025",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\",
+      "BasePath": "_content/Conalep2025",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "Conalep2025",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\",
+      "BasePath": "_content/Conalep2025",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\favicon.png",
+      "SourceId": "Conalep2025",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\",
+      "BasePath": "_content/Conalep2025",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\js\\scripts.js",
+      "SourceId": "Conalep2025",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\",
+      "BasePath": "_content/Conalep2025",
+      "RelativePath": "js/scripts#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6c946u1pec",
+      "Integrity": "Rlbtl74l5j5rgrRYoNMRids+n4AGDfDvwR5aamvxa2k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\scripts.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\js\\utilidades.js",
+      "SourceId": "Conalep2025",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\",
+      "BasePath": "_content/Conalep2025",
+      "RelativePath": "js/utilidades#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "apu96b9atz",
+      "Integrity": "UhqrD4be/AKA7Pa0RCz6PBGrvNswJUJF6YgeB7R13kE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\utilidades.js"
+    },
+    {
+      "Identity": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\logo-cnp.png",
+      "SourceId": "Conalep2025",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\",
+      "BasePath": "_content/Conalep2025",
+      "RelativePath": "logo-cnp#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ak05o65wsv",
+      "Integrity": "5i0K+GYJ7Me4Wv/NT9L7eNpEguf0R0Mh+6oXHYyi08k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo-cnp.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Blazorise/blazorise.css",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\blazorise.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q6TOhrRznPf2Ahko6sNBgGGBBPFbjd9BvXuQhpBmbLM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q6TOhrRznPf2Ahko6sNBgGGBBPFbjd9BvXuQhpBmbLM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/blazorise.min.css",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\blazorise.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FGT9oYq2nFvTaJeQlcZU781rrIJVGlvQ2BqOWXUOyW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FGT9oYq2nFvTaJeQlcZU781rrIJVGlvQ2BqOWXUOyW4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/breakpoint.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\breakpoint.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JhaI1xXnywN8viG6dIVM6CsVG8f8gNdVIn7XpGEIWh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JhaI1xXnywN8viG6dIVM6CsVG8f8gNdVIn7XpGEIWh4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/button.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\button.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EsO0GcZ1X6NVcuys/eSCWAMxkS9tqKWt6ul8FIcVPIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EsO0GcZ1X6NVcuys/eSCWAMxkS9tqKWt6ul8FIcVPIA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/closable.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\closable.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ixv4O0t21NpbZR6d0ORC1WkQHljTvIS5MBs3lRDN3No=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ixv4O0t21NpbZR6d0ORC1WkQHljTvIS5MBs3lRDN3No="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/colorPicker.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\colorPicker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnusyGY9E3/IO+rLbTnsWhzcBqunkA+BqdDi3xdfBEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnusyGY9E3/IO+rLbTnsWhzcBqunkA+BqdDi3xdfBEY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/datePicker.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\datePicker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r9gLRKhOaSsKVLzxszzixCSNzbjRhOZlotAD6ViNTrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r9gLRKhOaSsKVLzxszzixCSNzbjRhOZlotAD6ViNTrw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/dragDrop.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\dragDrop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+CUYHov9QhmnFCyEZjdm+h6r9C8swLqNXFbr+v5Fl5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CUYHov9QhmnFCyEZjdm+h6r9C8swLqNXFbr+v5Fl5g="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/dropdown.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\dropdown.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DgnmxLugwbViS4KFcXADQdiD7s1jcUPhQnvfmBeZRnY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DgnmxLugwbViS4KFcXADQdiD7s1jcUPhQnvfmBeZRnY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/fileEdit.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\fileEdit.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PAWG5+jA0qMSBPgi9tohRvYGggP4GxlU9zjzpNtl+Z8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PAWG5+jA0qMSBPgi9tohRvYGggP4GxlU9zjzpNtl+Z8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/filePicker.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\filePicker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S5JZUba21V6dIkb0OJV0ziiIxcPlvWXMidVvQV1v++M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S5JZUba21V6dIkb0OJV0ziiIxcPlvWXMidVvQV1v++M="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/floatingUi.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\floatingUi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K1Qh59Oxmqx6UFDzwE2WwKzt7qH+cE/MqfpzAnCBOFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K1Qh59Oxmqx6UFDzwE2WwKzt7qH+cE/MqfpzAnCBOFE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/inputMask.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\inputMask.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U+y3e66WHq4ZUltnokH29kt4MQf62jWmVlitKcAM+xc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U+y3e66WHq4ZUltnokH29kt4MQf62jWmVlitKcAM+xc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/io.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\io.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mbKL6XwKZyyrts0POi77EYKAsiuPcX8ZEDw5bwtQtFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mbKL6XwKZyyrts0POi77EYKAsiuPcX8ZEDw5bwtQtFY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/memoEdit.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\memoEdit.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fr5wMAvJ2LbFLLt4vlmWVEWbEoGhrPmAl0BvPmrmi6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fr5wMAvJ2LbFLLt4vlmWVEWbEoGhrPmAl0BvPmrmi6o="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/numericPicker.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\numericPicker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uFF9qYTWVgFB0PcDKzurIe9Ym0wj814JCXihiEKt0bE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uFF9qYTWVgFB0PcDKzurIe9Ym0wj814JCXihiEKt0bE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/observer.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\observer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UL7yfMvnqDrtwAkFBxgGYL+5hCO9VDCJ94lmA5Ry130=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UL7yfMvnqDrtwAkFBxgGYL+5hCO9VDCJ94lmA5Ry130="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/table.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\table.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pH6QJbNjPuz7zHdzpEYCWL46TVWOtOUdwOtLZ7eWZ1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pH6QJbNjPuz7zHdzpEYCWL46TVWOtOUdwOtLZ7eWZ1o="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/textEdit.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\textEdit.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g0kC3HDaTHC4Z84MtjCkY0ECzw2TzWVoYn+wA/xa7tM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g0kC3HDaTHC4Z84MtjCkY0ECzw2TzWVoYn+wA/xa7tM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/theme.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\theme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/z7kNAcnzllfg/HxEPpf0fnn2IpUACYWcVwVa2oqnsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/z7kNAcnzllfg/HxEPpf0fnn2IpUACYWcVwVa2oqnsA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/timePicker.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\timePicker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6946"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DFQ/Jl0Q7kzpKiOYxShL6DlYB0wah2FIqhLH5IGS3Ak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DFQ/Jl0Q7kzpKiOYxShL6DlYB0wah2FIqhLH5IGS3Ak="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/tooltip.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\tooltip.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pEpQ51/8Bndxv1r4IG1PdyoQi0qMtQpOcKIw8Y4TKvU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pEpQ51/8Bndxv1r4IG1PdyoQi0qMtQpOcKIw8Y4TKvU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/utilities.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\utilities.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CLlEA1tWuBjP5c5o03QIJOroLF5B+3GVp4FO7u+r7GI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 11:42:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CLlEA1tWuBjP5c5o03QIJOroLF5B+3GVp4FO7u+r7GI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/validators/DateTimeMaskValidator.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\DateTimeMaskValidator.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6VFRpMupxoUE443D30s91C5bFZsQ58DxuiNwbCVxLJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6VFRpMupxoUE443D30s91C5bFZsQ58DxuiNwbCVxLJk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/validators/NoValidator.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\NoValidator.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RvdrNjHB3Z79Jf1QB/v3rjA4ib41PS+fjetwFdNiJuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RvdrNjHB3Z79Jf1QB/v3rjA4ib41PS+fjetwFdNiJuw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/validators/NumericMaskValidator.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\NumericMaskValidator.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6408"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ar0+fGtxySKLf8iZAlv7UMfP/0rO43/fn6aJjFYscE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ar0+fGtxySKLf8iZAlv7UMfP/0rO43/fn6aJjFYscE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/validators/RegExMaskValidator.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\validators\\RegExMaskValidator.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "633"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0JfcdT/AH07dbEAVpuaISjcVIZZmz6JaK0kpd2kRHFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0JfcdT/AH07dbEAVpuaISjcVIZZmz6JaK0kpd2kRHFM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/vendors/autoNumeric.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\autoNumeric.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHPx5iVPtgtmcZNDoi0TKQcGpZ/ThGTXvzkGzajnDEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHPx5iVPtgtmcZNDoi0TKQcGpZ/ThGTXvzkGzajnDEo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/vendors/Behave.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\Behave.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9317"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QPixC/RhNy0Sx4ntFHFH0iGj3tNiFkhkh/FDWbau6LE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QPixC/RhNy0Sx4ntFHFH0iGj3tNiFkhkh/FDWbau6LE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/vendors/flatpickr.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\flatpickr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TuPGTy1RSyKjfSGGz7VXOVYYoW3nhlFnCiVxIxtci88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TuPGTy1RSyKjfSGGz7VXOVYYoW3nhlFnCiVxIxtci88="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/vendors/floating-ui.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\floating-ui.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cxuZSSJUtLW1W9nVAnm5EiMlDJ34kSIUSNACDrLG6OI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cxuZSSJUtLW1W9nVAnm5EiMlDJ34kSIUSNACDrLG6OI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/vendors/floating-ui-core.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\floating-ui-core.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0guaW7kt/WFpp8o6esUyNY5+Wm0/Jk0sgZGfiLlpIV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0guaW7kt/WFpp8o6esUyNY5+Wm0/Jk0sgZGfiLlpIV0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/vendors/inputmask.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\inputmask.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141988"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+mZGO/MfY1p0zmJh0VuKN/1cSevolIfLp+1p4yqRST0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:22:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+mZGO/MfY1p0zmJh0VuKN/1cSevolIfLp+1p4yqRST0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/vendors/jsencrypt.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\jsencrypt.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UYwEFy4Dt94x8agDo+K5rAAynsteCUPA/G2UQCHEvyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UYwEFy4Dt94x8agDo+K5rAAynsteCUPA/G2UQCHEvyM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/vendors/Pickr.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\Pickr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1gHexzaXVdeRaNA/1rkPr0sk9Wcyys2XlLgv22akhVM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1gHexzaXVdeRaNA/1rkPr0sk9Wcyys2XlLgv22akhVM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazorise/vendors/sha512.js",
+      "AssetFile": "C:\\Users\\JPSA\\.nuget\\packages\\blazorise\\1.5.3\\staticwebassets\\vendors\\sha512.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E+LUjqfR7dS8pbN72SD0gJxBccFzMa7ZTfkInVjDPqU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Jun 2024 08:14:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E+LUjqfR7dS8pbN72SD0gJxBccFzMa7ZTfkInVjDPqU="
+        }
+      ]
+    },
+    {
+      "Route": "app.2odz792qjk.css",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8vr/EQVVDZ51y5xUlR7pdgg5SfyZ652qi/G1dj1JU24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 18:58:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2odz792qjk"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8vr/EQVVDZ51y5xUlR7pdgg5SfyZ652qi/G1dj1JU24="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8vr/EQVVDZ51y5xUlR7pdgg5SfyZ652qi/G1dj1JU24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 18:58:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8vr/EQVVDZ51y5xUlR7pdgg5SfyZ652qi/G1dj1JU24="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 17:02:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 17:02:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 20:45:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 20:45:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "Conalep2025.bundle.scp.css",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Conalep2025.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WCrWxtDLsoytH4uY8k329pTNQvHcj2ZUr6/3Ni6EnPc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 17:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WCrWxtDLsoytH4uY8k329pTNQvHcj2ZUr6/3Ni6EnPc="
+        }
+      ]
+    },
+    {
+      "Route": "Conalep2025.cjb1hp77qd.bundle.scp.css",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Conalep2025.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WCrWxtDLsoytH4uY8k329pTNQvHcj2ZUr6/3Ni6EnPc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 17:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cjb1hp77qd"
+        },
+        {
+          "Name": "label",
+          "Value": "Conalep2025.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WCrWxtDLsoytH4uY8k329pTNQvHcj2ZUr6/3Ni6EnPc="
+        }
+      ]
+    },
+    {
+      "Route": "Conalep2025.cjb1hp77qd.styles.css",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Conalep2025.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WCrWxtDLsoytH4uY8k329pTNQvHcj2ZUr6/3Ni6EnPc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 17:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cjb1hp77qd"
+        },
+        {
+          "Name": "label",
+          "Value": "Conalep2025.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WCrWxtDLsoytH4uY8k329pTNQvHcj2ZUr6/3Ni6EnPc="
+        }
+      ]
+    },
+    {
+      "Route": "Conalep2025.styles.css",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Conalep2025.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WCrWxtDLsoytH4uY8k329pTNQvHcj2ZUr6/3Ni6EnPc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 17:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WCrWxtDLsoytH4uY8k329pTNQvHcj2ZUr6/3Ni6EnPc="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 17:02:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Jul 2025 17:02:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.6c946u1pec.js",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\js\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rlbtl74l5j5rgrRYoNMRids+n4AGDfDvwR5aamvxa2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Oct 2024 18:07:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6c946u1pec"
+        },
+        {
+          "Name": "label",
+          "Value": "js/scripts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rlbtl74l5j5rgrRYoNMRids+n4AGDfDvwR5aamvxa2k="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.js",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\js\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rlbtl74l5j5rgrRYoNMRids+n4AGDfDvwR5aamvxa2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Oct 2024 18:07:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rlbtl74l5j5rgrRYoNMRids+n4AGDfDvwR5aamvxa2k="
+        }
+      ]
+    },
+    {
+      "Route": "js/utilidades.apu96b9atz.js",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\js\\utilidades.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UhqrD4be/AKA7Pa0RCz6PBGrvNswJUJF6YgeB7R13kE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Oct 2024 18:06:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "apu96b9atz"
+        },
+        {
+          "Name": "label",
+          "Value": "js/utilidades.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UhqrD4be/AKA7Pa0RCz6PBGrvNswJUJF6YgeB7R13kE="
+        }
+      ]
+    },
+    {
+      "Route": "js/utilidades.js",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\js\\utilidades.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UhqrD4be/AKA7Pa0RCz6PBGrvNswJUJF6YgeB7R13kE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Oct 2024 18:06:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UhqrD4be/AKA7Pa0RCz6PBGrvNswJUJF6YgeB7R13kE="
+        }
+      ]
+    },
+    {
+      "Route": "logo-cnp.ak05o65wsv.png",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\logo-cnp.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5i0K+GYJ7Me4Wv/NT9L7eNpEguf0R0Mh+6oXHYyi08k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 18 Apr 2024 21:42:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ak05o65wsv"
+        },
+        {
+          "Name": "label",
+          "Value": "logo-cnp.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5i0K+GYJ7Me4Wv/NT9L7eNpEguf0R0Mh+6oXHYyi08k="
+        }
+      ]
+    },
+    {
+      "Route": "logo-cnp.png",
+      "AssetFile": "C:\\Users\\JPSA\\source\\repos\\Conalep2025\\Conalep2025\\wwwroot\\logo-cnp.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5i0K+GYJ7Me4Wv/NT9L7eNpEguf0R0Mh+6oXHYyi08k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 18 Apr 2024 21:42:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5i0K+GYJ7Me4Wv/NT9L7eNpEguf0R0Mh+6oXHYyi08k="
+        }
+      ]
+    }
+  ]
+}

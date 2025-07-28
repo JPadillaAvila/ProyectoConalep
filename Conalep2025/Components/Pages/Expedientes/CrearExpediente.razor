@@ -1,0 +1,520 @@
+﻿@page "/CrearExpediente"
+@using Conalep2025.Models
+@using Conalep2025.Pages.Expedientes
+@using Conalep2025.Repository
+@using System.Net
+@using System.Text.Json
+@using System.Text
+@using Conalep2025.Utils
+@inject IrepositoryMySQL Repositorio
+@inject NavigationManager navigationManager
+@inject IJSRuntime JSRuntime
+
+<h3 class="text-center"></h3>
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-dark"> CREAR UN NUEVO EXPEDIENTE </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <EditForm Model="ModeloExpediente" OnValidSubmit="@( () => ManejadorOnCrearExpediente())">
+            <DataAnnotationsValidator></DataAnnotationsValidator>
+
+            <div class="container">
+                <div class="form-group">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>CURP</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.CURP" class="form-control" placeholder="" maxlength="18" style="text-transform:uppercase"></InputText>
+                                <Button @onclick="ApiFindCurp" Color="Color.Default"><Icon Name="IconName.Search" /> Buscar</Button>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <h2>DATOS FISCALES</h2>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>RFC</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.RFC" class="form-control" placeholder="" maxlength="13" style="text-transform:uppercase"></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.RFC"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>FECHA VALIDACIÓN RFC</label>
+                            </div>
+                            <div class="col-6">
+                                <InputDate @bind-Value="ModeloExpediente.FechaValidacionRFC" class="form-control" placeholder="" disabled></InputDate>
+                                <ValidationMessage For="() =>ModeloExpediente.FechaValidacionRFC"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <h2>DATOS PERSONALES</h2>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>NOMBRE</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.Nombre" class="form-control" placeholder=""></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.Nombre"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>PRIMER APELLIDO</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.PrimerApellido" class="form-control" placeholder=""></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.PrimerApellido"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>SEGUNDO APELLIDO</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.SegundoApellido" class="form-control" placeholder=""></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.SegundoApellido"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>FECHA DE NACIMIENTO</label>
+                            </div>
+                            <div class="col-6">
+                                <InputDate @bind-Value="ModeloExpediente.FechaNacimiento" class="form-control" placeholder="" @oninput="CalcularEdad"></InputDate>
+                                <ValidationMessage For="() =>ModeloExpediente.FechaNacimiento"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>EDAD</label>
+                            </div>
+                            <div class="col-6">
+                                <InputNumber @bind-Value="ModeloExpediente.Edad" class="form-control" placeholder="" disabled></InputNumber>
+                                <ValidationMessage For="() =>ModeloExpediente.Edad"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>GENERO</label>
+                            </div>
+                            <div class="col-6">
+                                <select @bind="ModeloExpediente.Sexo" class="form-control">
+                                    <option value="Hombre">Hombre</option>
+                                    <option value="Mujer">Mujer</option>
+                                </select>
+                                <ValidationMessage For="() => ModeloExpediente.Sexo"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <h2>DOMICILIO</h2>
+                    <div class="col-4 d-flex justify-content-center">
+                        <label>
+                            <input type="checkbox" @bind="isCancelled" /> NO TIENE
+                        </label>
+                    </div>
+
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>ESTADO</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.Estado" class="form-control" placeholder="" @bind-disabled="isCancelled"></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.Estado"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>MUNICIPIO</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.Municipio" class="form-control" placeholder="" @bind-disabled="isCancelled"></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.Municipio"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>LOCALIDAD</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.Localidad" class="form-control" placeholder="" @bind-disabled="isCancelled"></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.Localidad"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>CALLE</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.Calle" class="form-control" placeholder="" @bind-disabled="isCancelled"></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.Calle"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>NUMERO EXTERIOR</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.NumeroExterior" class="form-control" placeholder="" @bind-disabled="isCancelled"></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.NumeroExterior"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>NUMERO INTERIOR</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.NumeroInterior" class="form-control" placeholder="" @bind-disabled="isCancelled"></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.NumeroInterior"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>CODIGO POSTAL</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.CodigoPostal" class="form-control" placeholder="" @bind-disabled="isCancelled"></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.CodigoPostal"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <h2>INFORMACIÓN DE CONTACTO</h2>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>TELEFONO</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.Telefono" class="form-control" placeholder=""></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.Telefono"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>CELULAR</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.Celular" class="form-control" placeholder=""></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.Celular"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>CORREO</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.Correo" class="form-control" placeholder=""></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.Correo"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <h2>DATOS DE SEGURIDAD SOCIAL</h2>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>NUMERO DE SEGURO SOCIAL</label>
+                            </div>
+                            <div class="col-6">
+                                <InputText @bind-Value="ModeloExpediente.NSS" class="form-control" placeholder=""></InputText>
+                                <ValidationMessage For="() =>ModeloExpediente.NSS"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>GRUPO SANGUINEO</label>
+                            </div>
+                            <div class="col-6">
+                                <select @bind="ModeloExpediente.GrupoSanguineo" class="form-control">
+                                    <option value="">Seleccionar Grupo Sanguíneo</option>
+                                    <option value="A+">A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="B-">B-</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="AB-">AB-</option>
+                                    <option value="O+">O+</option>
+                                    <option value="O-">O-</option>
+                                </select>
+                                <ValidationMessage For="() => ModeloExpediente.GrupoSanguineo"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <h2>EDUCACIÓN</h2>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>GRADO DE ESTUDIOS </label>
+                            </div>
+                            <div class="col-6">
+                                <select @bind="ModeloExpediente.GradoEstudios" class="form-control">
+                                    <option value="">Seleccionar Grado de estudios</option>
+                                    <option value="Profesional tecnico">Profesional técnico</option>
+                                    <option value="Bachillerato tecnológico ">Bachillerato tecnológico </option>
+                                    <option value="Tecnico superior universitario">Técnico superior universitario</option>
+                                    <option value="Licenciatura">Licenciatura</option>
+                                    <option value="Especialidad">Especialidad</option>
+                                    <option value="Maestría">Maestría</option>
+                                    <option value="Doctorado">Doctorado</option>
+
+                                </select>
+                                <ValidationMessage For="() => ModeloExpediente.GradoEstudios"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>OTRO EMPLEO </label>
+                            </div>
+                            <div class="col-6">
+                                <select @bind="ModeloExpediente.OtroEmpleo" class="form-control">
+                                    <option value="SI">SI</option>
+                                    <option value="NO">NO</option>
+                                </select>
+                                <ValidationMessage For="() =>ModeloExpediente.OtroEmpleo"></ValidationMessage>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-success"><span class="oi oi-cog" aria-hidden="true"></span> Guardar registro</button>
+                                <button class="btn btn-danger" @onclick="@( () => navigationManager.NavigateTo("/ListaExpediente"))"><span class="oi oi-chevron-left" aria-hidden="true"></span> Volver a atrás</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                </div>
+            </div>
+            <br />
+
+        </EditForm>
+
+    </div>
+</div>
+
+@code {
+    private bool isCancelled = false;
+
+    private Expediente ModeloExpediente = new Expediente();
+
+    protected override void OnInitialized()
+    {
+        // Inicializar los valores por defecto
+        ModeloExpediente.Sexo = "Hombre"; 
+        ModeloExpediente.GrupoSanguineo = ""; 
+        ModeloExpediente.OtroEmpleo = "NO"; 
+        ModeloExpediente.FechaNacimiento = DateTime.Today;
+        ModeloExpediente.FechaValidacionRFC = DateTime.Today;
+
+    }
+
+    //evento
+    private void CalcularEdad(ChangeEventArgs e)
+    {
+
+        if (DateTime.TryParse(e.Value.ToString(), out DateTime fechaNacimiento))
+        {
+            ModeloExpediente.Edad = ExpedientUtils.UtilCalcularEdad(fechaNacimiento);
+        }
+    }
+
+
+    private async Task<bool> BuscarExpedienteLocal(string curp)
+    {
+        var expedienteLocal = await Repositorio.GetExpedienteByCURP(curp.ToUpper());
+
+        if (expedienteLocal != null)
+        {
+            // Mostrar un toast o mensaje de confirmación
+            bool editar = await JSRuntime.InvokeAsync<bool>("confirm", new object[] { $"El CURP {curp} ya existe. ¿Deseas editar este registro?" });
+            if (editar)
+            {
+                navigationManager.NavigateTo($"/EditarExpediente/{expedienteLocal.ExpedienteID}");
+                return true;
+            }
+            else
+            {
+                // Recargar la página actual
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public async Task ApiFindCurp()
+    {
+        // Buscar en la base de datos local
+        bool encontrado = await BuscarExpedienteLocal(ModeloExpediente.CURP);
+        if (encontrado)
+        {
+            return;
+        }
+        // Si no se encuentra en la base de datos local, buscar en la API
+        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+
+        string url = "https://miportal.conalepquintanaroo.edu.mx/renapo";
+
+        // Crear handler para ignorar errores de SSL (solo para pruebas)
+        HttpClientHandler handler = new HttpClientHandler();
+        handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+
+        var client = new HttpClient(handler);
+        Curp curp = new Curp()
+            {
+
+                curp = ModeloExpediente.CURP.ToUpper(),
+            };
+
+        var data = JsonSerializer.Serialize(curp);
+        HttpContent content = new StringContent(data, Encoding.UTF8, "application/json");
+
+        try
+        {
+            var httpResponse = await client.PostAsync(url, content);
+            if (httpResponse.IsSuccessStatusCode)
+            {
+                var result = await httpResponse.Content.ReadAsStringAsync();
+
+                // Deserializar la respuesta JSON en un objeto CurpResponse
+                var curpResponse = JsonSerializer.Deserialize<CurpResponse>(result);
+
+                // Asignar los valores recibidos a ModeloExpediente
+                ModeloExpediente.Nombre = curpResponse.nombre;
+                ModeloExpediente.PrimerApellido = curpResponse.apellido1;
+                ModeloExpediente.SegundoApellido = curpResponse.apellido2;
+                ModeloExpediente.FechaNacimiento = curpResponse.fechaNacimiento;
+
+                // Calcular la edad
+                ModeloExpediente.Edad = ExpedientUtils.UtilCalcularEdad(curpResponse.fechaNacimiento);
+            }
+            else
+            {
+                var errorContent = await httpResponse.Content.ReadAsStringAsync();
+                Console.WriteLine($"Error: {httpResponse.StatusCode}");
+                Console.WriteLine($"Error content: {errorContent}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Exception: {ex.Message}");
+        }
+    }
+
+    // Método para  guardar un registro en la tabla utilrenapo
+    private async Task ManejadorOnCrearExpediente()
+    {
+        // Buscar en la base de datos local
+        bool encontrado = await BuscarExpedienteLocal(ModeloExpediente.CURP);
+        if (encontrado)
+        {
+            return;
+        }
+        else
+        {
+            ModeloExpediente.CURP = ModeloExpediente.CURP.ToUpper();
+            ModeloExpediente.RFC = ModeloExpediente.RFC.ToUpper();
+
+            // Generar un GUID para el ID del expediente
+            ModeloExpediente.ExpedienteID = Guid.NewGuid().ToString();
+
+            // Llamar al método para crear un expediente en el repositorio
+            var crearRenapo = await Repositorio.CrearExpediente(ModeloExpediente);
+
+            // Redirigir a la página de ListaExpediente después de crear el expediente
+            navigationManager.NavigateTo("/ListaExpediente");
+        }
+    }
+}

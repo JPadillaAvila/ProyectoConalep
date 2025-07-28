@@ -1,0 +1,72 @@
+﻿@* @page "/prueba"
+@using Conalep2025.Models
+@using Conalep2025.Repository
+@inject IRepository Repositorio
+@inject NavigationManager navigationManager
+
+<div class="card">
+    <div class="card-header">
+        <div class="row"> 
+            <div class="col-md-12">
+                <button class="btn btn-success btn-sm" @onclick="@( () => navigationManager.NavigateTo("/CrearExpediente"))"><span class="oi oi-chevron-left" aria-hidden="true"></span> Crear Expediente </button>
+                <h2 class="text-dark text-center">Lista de Expedientes</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <DataGrid TItem="Expediente" Data="@ListExpediente" PageSize="5" Responsive Editable Filterable>
+            <DataGridColumn Field="@nameof(Expediente.ExpedienteID)" Caption="Expediente ID" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.RFC)" Caption="RFC" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.FechaValidacionRFC)" Caption="Fecha de validación" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.NombreCompleto)" Caption="Nombre" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.FechaNacimiento)" Caption="Fecha de nacimiento" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.Sexo)" Caption="Sexo" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.Edad)" Caption="Edad" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.Estado)" Caption="Estado" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.Telefono)" Caption="Telefono" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.Celular)" Caption="Celular" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.Correo)" Caption="Correo" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.GrupoSanguineo)" Caption="Grupo sanguineo" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.NSS)" Caption="NSS" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.GradoEstudios)" Caption="Grado de estudios" Editable="false" />
+            <DataGridColumn Field="@nameof(Expediente.OtroEmpleo)" Caption="Otro empleo" Editable="false" />
+            <DataGridCommandColumn Caption="Acciones">
+                <EditTemplate>
+                    @(context =>
+                    {
+                        var expediente = (Expediente)context.Item;
+                        return <a href="EditarExpediente/@expediente.ExpedienteID" class="btn btn-success btn-sm"><span class="oi oi-plus" aria-hidden="true"></span> Editar</a>;
+                    })
+                </EditTemplate>
+                <DeleteTemplate>
+                    @(context =>
+                    {
+                        var expediente = (Expediente)context.Item;
+                        return <button @onclick="@( () => BorrarExpediente(expediente.ExpedienteID))" class="btn btn-danger btn-sm"><span class="oi oi-delete" aria-hidden="true"></span> Borrar</button>;
+                    })
+                </DeleteTemplate>
+            </DataGridCommandColumn>
+        </DataGrid>
+    </div>
+</div>
+
+@code {
+
+    private List<Expediente> ListExpediente = new List<Expediente>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        ListExpediente = await Repositorio.GetExpediente();
+    }
+
+    //metodo para borrar registro
+    private async Task BorrarExpediente(string ExpedientId)
+    {
+        await Repositorio.EliminarExpediente(ExpedientId);
+
+        //Actualizar el modelo de  para que recargue la lista de
+        ListExpediente = await Repositorio.GetExpediente();
+    }
+}
+ *@

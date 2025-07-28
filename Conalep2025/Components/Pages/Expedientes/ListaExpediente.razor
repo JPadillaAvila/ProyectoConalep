@@ -1,0 +1,170 @@
+﻿@page "/ListaExpediente"
+@using Conalep2025.Models
+@using Conalep2025.Repository
+@inject IrepositoryMySQL Repositorio
+@inject NavigationManager navigationManager
+@inject IJSRuntime JSRuntime
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-success btn-sm" @onclick="@( () => navigationManager.NavigateTo("/CrearExpediente"))"><span class="oi oi-chevron-left" aria-hidden="true"></span> Crear Expediente </button>
+                <h2 class="text-dark text-center">Lista de Expedientes</h2>
+            </div>
+        </div>
+    </div>
+    <div class="form-inline">
+       
+        <label class="sr-only" for="nombre-filtro">filtrar</label>
+        <input type="text" class="form-control mb-2 nr-sm-2" @bind="RFCFilt" placeholder="FILTRAR POR RFC" maxlength="13" style="text-transform:uppercase"/>
+        <button type="button" @onclick="RFCFilter" class="btn btn-primary mr-sm-2 mb-2 " >FILTRAR</button>
+        <button type="button" @onclick="LimpiarFiltro" class="btn btn-danger mr-sm-2 mb-2">LIMPIAR</button>
+   
+    </div>
+
+    <div class="card-body">
+        <div class="table-responsive">
+            @if (PaginatedExpedientes != null && PaginatedExpedientes.Count > 0)
+            {
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Expediente ID</th>
+                            <th>RFC</th>
+                            <th>Fecha de validación</th>
+                            <th>Nombre</th>
+                            <th>Fecha de nacimiento</th>
+                            <th>Sexo</th>
+                            <th>Edad</th>
+                            <th>Estado</th>
+                            <th>Telefono</th>
+                            <th>Celular</th>
+                            <th>Correo</th>
+                            <th>Grupo sanguineo</th>
+                            <th>NSS</th>
+                            <th>Grado de estudios</th>
+                            <th>Otro empleo</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var expediente in PaginatedExpedientes)
+                        {
+                            <tr>
+                                <td>@expediente.ExpedienteID</td>
+                                <td>@expediente.RFC</td>
+                                <td>@expediente.FechaValidacionRFC.ToString("dd/MM/yyyy")</td>
+                                <td>@($"{expediente.PrimerApellido} {expediente.SegundoApellido} {expediente.Nombre}")</td>
+                                <td>@expediente.FechaNacimiento.ToString("dd/MM/yyyy")</td>
+                                <td>@expediente.Sexo</td>
+                                <td>@expediente.Edad</td>
+                                <td>@expediente.Estado</td>
+                                <td>@expediente.Telefono</td>
+                                <td>@expediente.Celular</td>
+                                <td>@expediente.Correo</td>
+                                <td>@expediente.GrupoSanguineo</td>
+                                <td>@expediente.NSS</td>
+                                <td>@expediente.GradoEstudios</td>
+                                <td>@expediente.OtroEmpleo</td>
+                                <td>
+                                    <a href="EditarExpediente/@expediente.ExpedienteID" class="btn btn-success btn-sm"><span class="oi oi-plus" aria-hidden="true"></span> Editar</a>
+                                    <button @onclick="@( () => BorrarExpediente(expediente.ExpedienteID))" class="btn btn-danger btn-sm"><span class="oi oi-delete" aria-hidden="true"></span> Borrar</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p>No hay expedientes para mostrar.</p>
+            }
+        </div>
+
+        <div class="pagination">
+            <button @onclick="PreviousPage" class="btn btn-primary" disabled="@(CurrentPage == 1)">Anterior</button>
+            <span>Página @CurrentPage de @TotalPages</span>
+            <button @onclick="NextPage" class="btn btn-primary" disabled="@(CurrentPage == TotalPages)">Siguiente</button>
+        </div>
+    </div>
+</div>
+
+@code {
+   
+    private List<Expediente> ListExpediente = new List<Expediente>();
+    private List<Expediente> FilteredExpediente = new List<Expediente>();
+    private List<Expediente> PaginatedExpedientes = new List<Expediente>();
+    private int CurrentPage = 1;
+    private int PageSize = 10; // Número de expedientes por página
+    private int TotalPages => (FilteredExpediente != null && FilteredExpediente.Count > 0) ? (int)Math.Ceiling((double)FilteredExpediente.Count / PageSize) : 1;
+    private string RFCFilt = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        ListExpediente = await Repositorio.GetExpediente();
+        FilteredExpediente = ListExpediente;
+        PaginateExpedientes();
+    }
+
+    private void RFCFilter()
+    {
+        CurrentPage = 1;
+        if (!string.IsNullOrWhiteSpace(RFCFilt))
+        {
+            FilteredExpediente = ListExpediente.Where(e => e.RFC.Contains(RFCFilt, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+        else
+        {
+            FilteredExpediente = ListExpediente;
+        }
+        PaginateExpedientes();
+    }
+
+    private void LimpiarFiltro()
+    {
+        RFCFilt = string.Empty;
+        FilteredExpediente = ListExpediente;
+        PaginateExpedientes();
+    }
+
+    private async Task BorrarExpediente(string ExpedienteID)
+    {
+        bool isConfirmed = await JSRuntime.InvokeAsync<bool>("confirm", $"¿Estás seguro de que deseas borrar el expediente con ID {ExpedienteID}?");
+        if (isConfirmed)
+        {
+            await Repositorio.EliminarExpediente(ExpedienteID);
+            ListExpediente = await Repositorio.GetExpediente();
+            RFCFilter();
+        }
+    }
+
+    private void PaginateExpedientes()
+    {
+        if (FilteredExpediente != null)
+        {
+            PaginatedExpedientes = FilteredExpediente
+                .Skip((CurrentPage - 1) * PageSize)
+                .Take(PageSize)
+                .ToList();
+        }
+    }
+
+    private void PreviousPage()
+    {
+        if (CurrentPage > 1)
+        {
+            CurrentPage--;
+            PaginateExpedientes();
+        }
+    }
+
+    private void NextPage()
+    {
+        if (CurrentPage < TotalPages)
+        {
+            CurrentPage++;
+            PaginateExpedientes();
+        }
+    }
+}

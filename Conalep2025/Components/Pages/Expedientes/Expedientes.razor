@@ -1,0 +1,31 @@
+﻿@page "/Expedientes"
+@using System.IO
+@using Blazorise
+
+<h3>test</h3>
+<p>Hola mundo</p>
+
+
+<Field>
+    <FilePicker Multiple Upload="OnFileUpload" ShowMode="FilePickerShowMode.List" />
+</Field>
+@code {
+    async Task OnFileUpload(FileUploadEventArgs e)
+    {
+        try
+        {
+            using (MemoryStream result = new MemoryStream())
+            {
+                await e.File.OpenReadStream(long.MaxValue).CopyToAsync(result);
+            }
+        }
+        catch (Exception exc)
+        {
+            Console.WriteLine(exc.Message);
+        }
+        finally
+        {
+            this.StateHasChanged();
+        }
+    }
+}
